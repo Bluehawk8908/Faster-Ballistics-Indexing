@@ -24,7 +24,7 @@ namespace FasterBallisticsIndexing
             AmmoType queued = __instance.QueuedClipType.MinimalPattern[0].AmmoType;
             WeaponSystem wep = __instance.gameObject.GetComponent<WeaponSystem>();
             FireControlSystem fcs = wep.FCS;
-            if (queued != null) { fcs.CurrentAmmoType = queued; }           
+            if (queued != null && __instance.Reloading == false) { fcs.CurrentAmmoType = queued; }               
         }
     }    
 }
