@@ -3,7 +3,7 @@ using MelonLoader;
 using HarmonyLib;
 using FasterBallisticsIndexing;
 
-[assembly: MelonInfo(typeof(FasterBallistics), "Faster Ballistics Indexing", "1.0.1", "Bluehawk")]
+[assembly: MelonInfo(typeof(FasterBallistics), "Faster Ballistics Indexing", "1.0.2", "Bluehawk")]
 [assembly: MelonGame("Radian Simulations LLC", "GHPC")]
 
 namespace FasterBallisticsIndexing
